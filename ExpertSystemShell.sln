@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpertSystemShell", "ExpertSystemShell\ExpertSystemShell.csproj", "{F277307F-6DF6-42B2-8297-0A1CF9F7A01D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{403BA96D-E533-4FFF-A593-878A4A0F3586} = {403BA96D-E533-4FFF-A593-878A4A0F3586}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnhancedListBox", "EnhancedListBox\EnhancedListBox.csproj", "{403BA96D-E533-4FFF-A593-878A4A0F3586}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F277307F-6DF6-42B2-8297-0A1CF9F7A01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F277307F-6DF6-42B2-8297-0A1CF9F7A01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F277307F-6DF6-42B2-8297-0A1CF9F7A01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F277307F-6DF6-42B2-8297-0A1CF9F7A01D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{403BA96D-E533-4FFF-A593-878A4A0F3586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403BA96D-E533-4FFF-A593-878A4A0F3586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403BA96D-E533-4FFF-A593-878A4A0F3586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403BA96D-E533-4FFF-A593-878A4A0F3586}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79D660BE-303A-4975-9004-9055E7988B2C}
+	EndGlobalSection
+EndGlobal
